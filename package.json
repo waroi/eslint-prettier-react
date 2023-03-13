@@ -1,0 +1,39 @@
+{
+  "name": "eslint-prettier-react",
+  "version": "1.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"src/**/*.{js,jsx}\"",
+    "lint:fix": "eslint \"src/**/*.{js,jsx}\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waroi/eslint-prettier-react.git"
+  },
+  "keywords": [
+    "javascript",
+    "eslint",
+    "prettier",
+    "react",
+    "config",
+    "lint"
+  ],
+  "author": "waroi",
+  "license": "GNU GENERAL PUBLIC LICENSE Version 3",
+  "bugs": {
+    "url": "https://github.com/waroi/eslint-prettier-react/issues"
+  },
+  "homepage": "https://github.com/waroi/eslint-prettier-react#readme",
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.1.1",
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.4"
+  }
+}
